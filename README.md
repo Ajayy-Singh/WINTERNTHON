@@ -82,6 +82,11 @@ Existing platforms focus on outcomes rather than the writing journey.
 ---
 
 ## 🧪 How to Run the Project Locally
+### Clone Project
+```base
+git clone https://github.com/Ajayy-Singh/WINTERNTHON.git
+cd WINTERNTHON
+```
 
 ### Backend
 ```bash
@@ -96,3 +101,27 @@ cd Bug_Slayers
 npm install
 npm run dev
 ```
+
+
+---
+
+## 👥 Team & Hackathon Details
+
+- **Team Name:** Bug_Slayers  
+- **Hackathon:** Winternthon  
+- **Problem Statement:** WIN12 – Write from your heart
+
+In the bustling lanes of Hyderabad's old city near Charminar, a passionate group of educators and mentors were determined to help students write with focus and honesty — whether for Telugu essays, English answers, or long responses in competitive exams.
+Suhani Pal, the gentle yet firm language teacher, often shared her concern:
+"So many students lose their own voice because they get distracted or rush through copying. They need a calm place to truly think and write."
+Tamada Ramya, the dedicated project guide, added:
+"And when they do write, we should save everything safely — the words, the session, so they can come back to their own thoughts later."
+Sayan Deb, the encouraging mentor with a tech spark, nodded:
+"Simple storage, linked to each student. No fancy stuff yet — just reliable saving and easy access."
+Bollena Varsh, the warm and practical one in the group, smiled while stirring her Irani chai:
+"Let's make it feel like home — peaceful, like sitting in a quiet Telangana room with a wooden table and the faint smell of biryani from next door."
+One warm January evening in 2026, over steaming Irani chai, Osmania biscuits, and plates of bun maska at a small tapri near Abids, the idea took root — a clean writing app with heart.
+
+Build a simple, distraction-free writing application that gives users a peaceful space to type their thoughts, automatically saves the content with session details, and ties everything securely to the user for later access — with the warm spirit of Telangana.
+
+
