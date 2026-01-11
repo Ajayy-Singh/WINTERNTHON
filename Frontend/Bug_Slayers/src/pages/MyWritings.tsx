@@ -139,26 +139,19 @@ export default function MyWritings() {
               </p>
             </div>
 
-            <div style={styles.actions}>
-              <button
-                style={styles.secondaryButton}
-                onClick={() =>
-                  (window.location.href = `/editor?id=${w._id}`)
-                }
-              >
-                ✏️ Edit
-              </button>
+          <button
+            onClick={() =>
+              (window.location.href = `/editor?id=${w._id}`)
+            }
+          >
+            ✏️ Edit
+          </button>
 
-              <button
-                style={styles.dangerButton}
-                onClick={() => deleteWriting(w._id)}
-              >
-                🗑 Delete
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
+          <button onClick={() => deleteWriting(w._id)}>
+            🗑 Delete
+          </button>
+        </div>
+      ))}
     </div>
   );
 }
