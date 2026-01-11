@@ -8,7 +8,6 @@ const router = Router();
 router.post("/", auth, async (req: AuthRequest, res) => {
   const writing = await Writing.create({
     userId: req.userId,
-    title: req.body.title || "",
     content: req.body.content,
   });
 
@@ -21,14 +20,13 @@ router.get("/", auth, async (req: AuthRequest, res) => {
   res.json(writings);
 });
 
+
+
 // UPDATE writing
 router.put("/:id", auth, async (req: AuthRequest, res) => {
   const updated = await Writing.findOneAndUpdate(
     { _id: req.params.id, userId: req.userId },
-    {
-      title: req.params.id,
-      content: req.body.content,
-    },
+    { content: req.body.content },
     { new: true }
   );
   res.json(updated);
@@ -51,5 +49,6 @@ router.get("/:id", auth, async (req: AuthRequest, res) => {
   });
   res.json(writing);
 });
+
 
 export default router;
