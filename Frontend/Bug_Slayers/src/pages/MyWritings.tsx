@@ -62,7 +62,7 @@ export default function MyWritings() {
     const q = query.toLowerCase();
     return writings.filter(
       (w) =>
-        w.title.toLowerCase().includes(q) ||
+        w.title?.toLowerCase().includes(q) ||
         w.content.toLowerCase().includes(q)
     );
   }, [writings, query]);
